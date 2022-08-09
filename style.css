@@ -45,7 +45,7 @@
     }
 
 .cover-title h3{
-    color: green;
+    color: rgb(0, 209, 28);
 }
 .cover-title button{
     background-color: #0077ff;
@@ -82,6 +82,11 @@
 }
 .step-description{
     padding: 8px 20px;
+   
+}
+.step-description p {
+    color: grey;
+    font-size: 18px;
 }
 .side-img{
     width: 40vw;
@@ -89,4 +94,27 @@
     position: absolute;
     right: 0;
     bottom: 20px;
+ }
+
+ .green-line{
+    width: 48vw;
+ }
+ .container-img{
+    width: 45vw;
+    height: 75vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+ }
+ .container-img img{
+    width: 35vw;
+    height: 40vh;
+    /* margin-top: 70px ; */
+ }
+ .storage-desc p{
+    color: grey;
+    font-size: 20px;
+    margin: 20px 0;
  }
