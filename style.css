@@ -1,0 +1,92 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    height: 70px;
+}
+.nav-ul{
+    margin-left: 100px;
+}
+.nav-link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-link li{
+  margin: 0 12px ;
+}
+.cover-img{
+    width: 100vw;
+
+}
+.main-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.heading{
+    height: 400px;
+    width: 800px;
+    /* background-color: aqua; */
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+  
+}
+   .cover-title  {
+    color: white;
+     margin: 74px 26px 6px;
+     /* font-weight: 600; */
+     letter-spacing: 2px;
+    }
+
+.cover-title h3{
+    color: green;
+}
+.cover-title button{
+    background-color: #0077ff;
+    box-shadow: 0px 0px 1px;
+    color: white;
+    word-spacing: 3px;
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+    padding: 9px 28px;
+    margin-top: 26px ;
+}
+#steps-section{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.three-steps{
+    /* background-color: aquamarine; */
+  height: 55vh;
+  width: 50vw;
+  box-sizing: border-box;
+}
+.step{
+    display: flex;
+}
+.step img{
+    width: 60px;
+    height: 60px;
+}
+.step-description{
+    padding: 8px 20px;
+}
+.side-img{
+    width: 40vw;
+    height: 60vh;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+ }
