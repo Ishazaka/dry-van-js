@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
 }
+       /* nav bar section */
 .logo{
     height: 70px;
 }
@@ -30,7 +31,7 @@
 }
 .heading{
     height: 400px;
-    width: 800px;
+    width: 820px;
     /* background-color: aqua; */
     position: absolute;
     display: flex;
@@ -39,13 +40,17 @@
 }
    .cover-title  {
     color: white;
-     margin: 74px 26px 6px;
-     /* font-weight: 600; */
+     margin: 74px 26px 6px 0;
+    
      letter-spacing: 2px;
+    }
+    .cover-title h2{
+        font-size: 37px;
     }
 
 .cover-title h3{
     color: rgb(0, 209, 28);
+    font-size: 31px;
 }
 .cover-title button{
     background-color: #0077ff;
@@ -172,3 +177,107 @@
     width: 37vw;
     height: 54vh;
  }
+ .section-2{
+    position: relative;
+ }
+
+ .left-lines{
+    position: absolute;
+    width: 20vw;
+    height: 60vh;
+    top: -170px;
+ }
+
+ /* map section starts here */
+
+ .map-top{
+    height: 14vh;
+    background-image: url("images/map-bottom-lg.webp");
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: white;
+ }
+ .contact-top{
+    height: 12vh;
+    background-image: url("images/map-bottom-lg.webp");
+ }
+
+       /* ---- contact section  ---- */
+
+
+.contact-form {
+    position: relative;
+    width: 100%;
+    background-color: #132b2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-form img {
+    width: 100% !important;
+    min-height: 100vh ;
+    /* max-height: 1300px;
+    min-height: 1200px; */
+    background-size: cover;
+    filter: grayscale(100%);
+  }
+    
+  .contact-details {
+    /* background-color: rgb(183, 228, 213); */
+    position: absolute;
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  .contact-heading{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contact-heading h1{
+    color: rgb(13, 197, 13) !important;
+    letter-spacing: 1px;
+  }
+
+  .contact-line-input{
+    display: flex;
+
+  }
+
+  .inputs-box{
+    margin: 8px 14px;
+   display: flex;
+   flex-direction: column;
+  }
+  .inputs-box input{
+    width: 330px;
+    height: 32px;
+    border: none;
+    border-radius: 1px;
+  }
+
+  .contact-lastlines input{
+  width: 100%;
+  }
+  .contact-lastlines textarea{
+    border: none;
+    resize: none;
+  }
+
+  .contact-form-btn{
+    background-color: #0077ff;
+    box-shadow: 0px 0px 1px;
+    color: white;
+    word-spacing: 3px;
+    font-size: 20px;
+    border: none;
+    font-weight: 600;
+    padding: 9px 32px;
+    margin: 40px 0;
+
+  }
