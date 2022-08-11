@@ -19,6 +19,13 @@
 .nav-link li{
   margin: 0 12px ;
 }
+.nav-link li:hover a{
+    color: green !important;
+  }
+  /* .nav-link:last-child a{
+    color: black !important;
+  } */
+
 .cover-img{
     width: 100vw;
 
@@ -63,6 +70,11 @@
     padding: 9px 28px;
     margin-top: 26px ;
 }
+.cover-title button:hover{
+    background-color: #132b2e;
+    box-shadow: 0px 0px 1px #132b2e ;
+}
+
 #steps-section{
     height: 90vh;
     width: 100vw;
@@ -273,11 +285,53 @@
     background-color: #0077ff;
     box-shadow: 0px 0px 1px;
     color: white;
-    word-spacing: 3px;
-    font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 22px;
     border: none;
     font-weight: 600;
-    padding: 9px 32px;
+    padding: 9px 34px;
     margin: 40px 0;
 
   }
+  .contact-form-btn:hover{
+    background-color: #132b2e;
+    box-shadow: 0px 0px 1px #132b2e;
+  }
+
+  /* footer */
+
+  .footer{
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+  }
+.footer-logo img{
+  height: 12vh;
+  }
+
+  .footer-links{
+    
+    margin-top: 8vh;
+  }
+  .footer-links a{
+    margin: 0 20px;
+    color: gray;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .footer-links a:hover{
+    color: green;
+  }
+
+.footer-lines{
+    position: absolute;
+    right: 0;
+    height: 35vh;
+    width: 32vw;
+}
+
